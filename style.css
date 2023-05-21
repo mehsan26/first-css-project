@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/*  =======typo======== */
+button {
+    background-color: #3228F6;
+}
+/* =======background styling======= */
+header {
+    background-color: #1F2937;
+}
+.third-background {
+    background-color: #E5E7EB;
+}
+footer {
+    background-color: #1F2937;
+}
+/* ======header styling====== */
+.header-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.header-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.box1 {
+    color:#F9FAF8;
+    display: flex;
+    padding: 20px 200px 20px 200px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.box1 div {
+    padding: 10px;
+}
+.grow {
+    flex: 1 1 auto;
+    font-size: 22px;
+    font-weight: bolder;
+
+}
+.box2 {
+    padding: 60px 200px 60px 200px;
+    display: flex;
+
+}
+/* ========second background styling======== */
+.second-background {
+    text-align: center;
+}
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+}
+.box3 {
+    display: flex;
+    justify-content: space-around;
+}
+/* =======third background styling======== */
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+/* =======forth background styling======== */
+.call-to-action-background {
+    background-color: #3228F6;
+}
+
+/* =======footer styling */
+
