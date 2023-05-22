@@ -51,9 +51,6 @@ footer {
     justify-content: space-around;
     gap: 1rem;
 }
-/* .box1 div {
-    padding: 10px;
-} */
 .grow {
     flex: 1 1 auto;
     font-size: 22px;
@@ -63,11 +60,10 @@ footer {
 .box2 {
     padding: 100px 200px 100px 200px;
     display: flex;
-    /* justify-content: center; */
-
+    gap: 2rem;
 }
 .first-img {
-    width: 600px;
+    width: 500px;
     height: 250px;
 }
 /* ========second background styling======== */
