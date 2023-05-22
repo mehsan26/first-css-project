@@ -13,19 +13,34 @@ header {
 }
 .third-background {
     background-color: #E5E7EB;
+    padding: 80px 300px ;
+}
+.forth-background {
+    color: #F9FAF8;
 }
 footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px 0px;
+    text-align: center;
 }
 /* ======header styling====== */
 .header-main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0px;
 }
 .header-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0px;
+}
+.first-button {
+    border: #3228F6 1px solid;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    border-radius: 5px;
 }
 .box1 {
     color:#F9FAF8;
@@ -33,10 +48,12 @@ footer {
     padding: 20px 200px 20px 200px;
     font-size: 20px;
     font-weight: lighter;
+    justify-content: space-around;
+    gap: 1rem;
 }
-.box1 div {
+/* .box1 div {
     padding: 10px;
-}
+} */
 .grow {
     flex: 1 1 auto;
     font-size: 22px;
@@ -44,22 +61,43 @@ footer {
 
 }
 .box2 {
-    padding: 60px 200px 60px 200px;
+    padding: 100px 200px 100px 200px;
     display: flex;
+    /* justify-content: center; */
 
+}
+.first-img {
+    width: 600px;
+    height: 250px;
 }
 /* ========second background styling======== */
 .second-background {
     text-align: center;
+    padding: 50px 300px 130px 300px;
 }
 .information-header-text {
     font-size: 36px;
     font-weight: bolder;
+    color: #1F2937;
+    margin: 0px;
 }
 .box3 {
     display: flex;
     justify-content: space-around;
 }
+.second-img {
+    height: 170px;
+    width: 170px;
+    border: #008cff solid 4px;
+    border-radius: 15px;
+}
+.mimg {
+    height: 170px;
+    width: 170px;
+    padding: 50px 30px;
+
+}
+
 /* =======third background styling======== */
 .quote-text {
     font-size: 36px;
@@ -67,10 +105,40 @@ footer {
     font-weight: lighter;
     color: #1F2937;
 }
+.quote-writer-name {
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+}
+
 /* =======forth background styling======== */
 .call-to-action-background {
     background-color: #3228F6;
+    margin: 100px 250px;
+    padding: 30px 130px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-around;
+    gap: 5rem; 
 }
-
-/* =======footer styling */
+.second-button {
+    color: #F9FAF8;
+    padding: 10px 20px;
+    /* height: 50px; */
+    width: 150px;
+    margin: 30px auto;
+    font-size: larger;
+    border: #F9FAF8 solid 2px;
+    border-radius: 10px;
+}
+.last-h2 {
+    margin: 20px 0 0 0;
+}
+.last-p {
+    margin: 7px 0;
+}
+/* =======footer styling======= */
+footer h3 {
+    font-weight: lighter;
+}
 
